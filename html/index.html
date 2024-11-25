@@ -3,77 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="script.js"> </script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=kid_star" />
 </head>
 <body>
 
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <h1 class="logo">Tai<span class="orange">.</span></h1>
+            <h1 class="logo"><span class="orange">T</span>ai</h1>
             <nav class="nav">
-                <a href="#about">Home</a>
-                <a href="#services">About Me</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#testimonials">Contact</a>
-                <a href="#blog">Blog</a>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <img class="flags" src="media/flags.svg" onclick="toggleLanguage()" alt="Spanish/English">
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-        <div class="container">
-            <h2>Hello, I am</h2>
-            <h1>Tai</h1>
-            <p>A Student Web Developer and UI/UX Designer.</p>
-            <div class="buttons">
-                <a href="#" class="btn">Download CV</a>
-                <a href="#" class="btn btn-secondary">My Work</a>
+    <section class="hero">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div> 
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <div class="hero-content" id="home">
+            <div class="hero-text">
+                <h2>Bienvenidos</h2>
+                <h1>Tai</h1>
+                <p>A developer web.</p>
+                <button onclick="window.open('https://github.com/Tailosrx')" class="btn-hero">Ver Mis Trabajos</button>
+            </div>
+            <div class="hero-image">
+                <!--<img src="media/logo.jpg" alt="Imagen de hero"> -->
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
+     <!-- About Me Section -->
+     <section class="skills" id="skills">
+        <h2>My Knowledge</h2>
+        <br>
         <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-items">
-                <!-- Add your service items here -->
+            
+            <!-- Tarjeta de Frontend -->
+            <div class="skill-card">
+                <div class="skill-card-content">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <ul>
+                            <li><span class="material-symbols-outlined">kid_star</span> HTML5</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> CSS3</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> JavaScript</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+            
+            
+            <!-- Tarjeta de Backend -->
+            <div class="skill-card">
+                <div class="skill-card-content">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <ul>
+                            <li><span class="material-symbols-outlined">kid_star</span> Java</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> SQL</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> PHP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tarjeta de DevOps -->
+            <div class="skill-card">
+                <div class="skill-card-content">
+                    <h3>DevOps</h3>
+                    <div class="skill-list">
 
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <h2>Our Portfolio</h2>
-            <div class="portfolio-items">
-                <!-- Add portfolio items here -->
+                        <ul>
+                            <li><span class="material-symbols-outlined">kid_star</span> Git</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> GitHub</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> Linux</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> Windows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tarjeta de Herramientas -->
+            <div class="skill-card">
+                <div class="skill-card-content">
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <ul>
+                            <li><span class="material-symbols-outlined">kid_star</span> VS Code</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> Netbeans</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> Oracle SQL Developer</li>
+                            <li><span class="material-symbols-outlined">kid_star</span> VirtualBox</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
+    
+ 
+</section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials" id="testimonials">
-        <div class="container">
-            <h2>Testimonials</h2>
-            <div class="testimonial-items">
-                <!-- Add testimonials here -->
+<section class="projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/simon.jpg" alt="Simon Dice">
+                </div>
+                <div class="project-content">
+                    <h3>Simon Dice</h3>
+                    <p>Juego clásico implementado con JavaScript, ideal para ejercitar la memoria.</p>
+                    <a href="#" class="btn-project">Ver Proyecto</a>
+                </div>
+            </div>
+            
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/reciclar.webp" alt="El Juego de Reciclaje">
+                </div>
+                <div class="project-content">
+                    <h3>El Juego de Reciclaje</h3>
+                    <p>Un juego educativo creado con PHP para enseñar a clasificar residuos correctamente.</p>
+                    <a href="#" class="btn-project">Ver Proyecto</a>
+                </div>
+            </div>
+          <!-- Proyecto 3 -->
+          <div class="project-card">
+            <div class="project-image">
+                <img src="media/master.webp" alt="Mastermind">
+            </div>
+            <div class="project-content">
+                <h3>Mastermind</h3>
+                <p>Una adaptación del juego de lógica Mastermind, programado con JavaScript.</p>
+                <a href="#" class="btn-project">Ver Proyecto</a>
             </div>
         </div>
-    </section>
+    </div>
+</div>
+</section>
 
-    <!-- Blog Section -->
-    <section class="blog" id="blog">
-        <div class="container">
-            <h2>Latest Blog</h2>
-            <div class="blog-items">
-                <!-- Add blog posts here -->
-            </div>
-        </div>
-    </section>
 
 </body>
 </html>
