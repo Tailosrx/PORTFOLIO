@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Nova Square, serif;
     background-color: #111;
     color: #fff;
     position: relative;
@@ -121,6 +121,8 @@ body {
     margin-left: 20mm;  
     text-transform: uppercase;
 }
+
+
 
 .nav {
     display: flex;
@@ -327,7 +329,6 @@ color: #ffffff 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
 .projects {
     padding: 4rem 2rem;
     color:#fff;
-    background-color: #101010;
 }
 
 .section-title {
