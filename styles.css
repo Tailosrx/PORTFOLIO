@@ -379,6 +379,8 @@ h2 {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 
@@ -387,14 +389,15 @@ h2 {
     transform: scale(1.05);
 }
 .project-image {
-    width: 100%; 
-    aspect-ratio: 1; 
-    overflow: hidden; 
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; 
+    background-color: #000;
 }
+
 
 .project-image img {
     width: 100%;
