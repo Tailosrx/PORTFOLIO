@@ -235,21 +235,14 @@ body {
     object-fit: contain;
   }
   
-  .cube {
+  .cube, .cube2 {
     transition: all 0.4s;
     transform-style: preserve-3d;
     width: 200px;
     height: 20px;
     position: sticky;
-  }
+}
 
-  .cube2{
-   transition: all 0.4s;
-    transform-style: preserve-3d;
-    width: 200px;
-    height: 20px; 
-    position: sticky;
-  }
   
   .button-icon:hover .cube, .button-icon2:hover .cube2 {
     transform: rotateX(90deg);
@@ -375,7 +368,7 @@ h2 {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     align-items: stretch;
 }
