@@ -65,7 +65,7 @@ function updateContent(language) {
       simonDescription: "Classic game implemented with JavaScript, ideal for exercising memory.",
       viewProject: "View Project",
       map: "AntiVago",
-      mapDescription: "Plataforma de gamificación para registrar libros, juegos y animes con logros y progreso inteligente.",
+      mapDescription: "Gamification platform to record books, games and animes with achievements and smart progress.",
       dndmap: "Interactive Map of D&D",
       thunderDescription: "An interactive map of my Dungeons and Dragons campaign."
   },
