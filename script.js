@@ -64,8 +64,8 @@ function updateContent(language) {
       simonSays: "Simon Says",
       simonDescription: "Classic game implemented with JavaScript, ideal for exercising memory.",
       viewProject: "View Project",
-      map: "Products Map",
-      mapDescription: "A world map showing how many products there are by country.",
+      map: "AntiVago",
+      mapDescription: "Plataforma de gamificación para registrar libros, juegos y animes con logros y progreso inteligente.",
       dndmap: "Interactive Map of D&D",
       thunderDescription: "An interactive map of my Dungeons and Dragons campaign."
   },
@@ -83,8 +83,8 @@ function updateContent(language) {
       simonSays: "Simon Dice",
       simonDescription: "Juego clásico implementado con JavaScript, ideal para ejercitar la memoria.",
       viewProject: "Ver Proyecto",
-      map: "Mapa de Productos",
-      mapDescription: "Un mapamundi donde se muestra cuantos productos hay en cada país.",
+      map: "AntiVago",
+      mapDescription: "Plataforma de gamificación para registrar libros, juegos y animes con logros y progreso inteligente.",
       dndmap: "Interactive Map of D&D",
       thunderDescription: "Un mapa interactivo de mi campaaña de Dungeons and Dragons."
 
